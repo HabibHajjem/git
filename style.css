@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(206, 203, 203);
+}
+#title{
+    margin-left: 250px;
+}
+img{
+    width: 120px;
+    height: 120px;
+    
+}
+#product1,#product2,#product3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 250px;
+    background-color: white;
+    height: 140px;
+    padding: 0px 40px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input{
+    width: 40px;
+}
+p{
+    font-size: 1.5em;
+    width: 60px;
+}
+
+svg{
+    color: red;
+}
+
+#totalBloc{
+background-color: white;
+width: 16%;
+margin-left: 1025px;
+text-align: center;
+}
+#totalBloc span{
+    font-weight: normal;
+}
+button{
+    background-color: white;
+    border:none;
+}
+i{
+    font-size: 35px;
+    color: red;
+}
+.minusBtn, .plusBtn{
+    background-color: grey;
+    font-weight: bold;
+    font-size: 1.6em;
+    width: 40px;
+    height: 30px;
+    
+}
+
+
